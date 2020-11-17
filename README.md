@@ -9,6 +9,7 @@ Proyecto completo desarrollado con React. La app se comunica con una api realiza
 - Native Base
 - MongoDB
 - Apollo Server
+- Apollo Client
 - JWT
 
 ## Pasos a seguir:
