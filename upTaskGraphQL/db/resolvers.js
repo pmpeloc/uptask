@@ -128,7 +128,7 @@ const resolvers = {
         throw new Error('No tienes los permisos para editar esta tarea');
       }
       // Asignar el estado
-      input.estado = true;
+      input.estado = estado;
       // Guardar y retornar la tarea
       tarea = await Tarea.findOneAndUpdate({_id: id}, input, {new: true});
       return tarea;
